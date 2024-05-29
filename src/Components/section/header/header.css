@@ -1,0 +1,51 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed;
+    top: 0; */
+
+}
+
+.navigation li:hover {
+    color: #33333398;
+    transition: 333ms;
+}
+
+.navigation {
+    display: flex;
+    gap: 50px;
+}
+
+.login {
+    display: flex;
+    gap: 10px;
+
+    button {
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        border: none;
+        font-size: 16px;
+    }
+}
+
+.btnLogin {
+    background-color: #fff;
+
+    &:hover {
+        background-color: #47474798;
+        transition: 333ms;
+    }
+}
+
+.btnSignup {
+    background-color: #000000;
+    color: #fff;
+
+    &:hover {
+        background-color: #47474798;
+        transition: 333ms;
+
+    }
+}

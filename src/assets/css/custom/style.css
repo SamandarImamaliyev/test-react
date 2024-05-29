@@ -1,0 +1,21 @@
+body {
+    background-color: #F0F0F0;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+
+    /* font-family: "Playfair Display", serif;
+    font-style: normal; */
+
+    a {
+        color: inherit;
+    }
+}
+
+.main {
+    margin: 32px 300px 0px;
+}

@@ -1,0 +1,23 @@
+.accordionItem {
+    margin-top: 20px;
+}
+
+.accordionTitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 10px;
+    border-radius: 5px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #8a8a8a;
+        transition: 333ms;
+    }
+}
+
+.accordionContent {
+    padding: 10px;
+    transition: 1000ms;
+}

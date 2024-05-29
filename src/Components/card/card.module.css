@@ -1,0 +1,20 @@
+.card {
+    width: 350px;
+    height: 600px;
+    border: 1px solid #151515;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* buttona class verende  qebul etmir */
+/* .btn {
+    width: '356px';
+    height: '52px';
+    font-size: '18px';
+    background: '#151515';
+    color: '#fff';
+    cursor: 'pointer';
+} */

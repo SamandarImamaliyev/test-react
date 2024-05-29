@@ -1,0 +1,61 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+#home {
+    margin-top: 100px;
+}
+
+div p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    width: 560px;
+}
+
+div section:first-child button {
+    background: #151515;
+    height: 80px;
+    gap: 10px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+    border: none;
+
+    &:hover {
+        background-color: #47474798;
+        transition: 333ms;
+    }
+}
+
+/* about us */
+#aboutUs {
+    gap: 50px;
+
+    li {
+        list-style: square;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+#howItWorks>div>div>div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+
+    span {
+        font-size: 28px;
+    }
+}
+
+#pricing ul li {
+    margin-top: 24px;
+    list-style: square;
+    font-size: 18px;
+}
